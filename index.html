@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Resume CV</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Vitalij</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon' ></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon' ></i>Acquainted
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <div class="resume">
+            <div class="resume__left">
+                <!-- home -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="img/photo.jpg" alt="my_photo" class="home__img">
+
+                            <h1 class="home__title">VITALII <b>NAVROTSKYI</b></h1>
+                            <h3 class="home__profession">iOS developer</h3>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon' ></i> Ukraine Kyiv
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon' ></i> vitalik.nav@gmail.com
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon' ></i> +38(050)465-465-8
+                            </span>
+                        </div>
+                    </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                </section>
+
+                <!-- social -->
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://linkedin.com/in/vitalii-navrotskyi" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon' ></i> LinkedIn
+                        </a>
+
+                        <a href="https://www.instagram.com/v.nvrck/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram-alt social__icon' ></i> Instagram
+                        </a>
+
+                        <a href="https://www.facebook.com/navrotskyivitalii" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon' ></i> Facebook
+                        </a>
+
+                        <a href="https://github.com/VNavrockij" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> Github
+                        </a>
+                    </div>
+                </section>
+
+                <!-- profil -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">My name is Vitalii and I am currently Swift developer.
+                        I know the difference between "as, as?, as!, is" :)
+                        I've been developing web applications for iPad for two years. I like learning new things, so during self-study I got
+                        acquainted with Swift and technologies for web development. I want to be surrounded by smart, talented and successful
+                        people to surround me.
+                    </p>
+                </section>
+
+                <!-- education -->
+                <!-- <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Bachelor</h3>
+                                <span class="education__studies">Kyiv Slavonic University</span>
+                                <span class="education__year">2008 since</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Programming</h3>
+                                <span class="education__studies">Self-education</span>
+                                <span class="education__year">2020 since</span>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
+                <!-- skills -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <h3 class="section-title" id="section-title-extra">Basics</h3>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Foundation
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> OOP
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> UserDefaults, CoreData
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Realm, FireBase
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Autolayout, Combine
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> MVC, MVVM
+                            </li>
+
+                            
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> UIKit, SwiftUI, SnapKit
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> CocoaPods, SPM
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> URLSession, Alamofire
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> REST API
+                            </li>
+
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Jira
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+            </div>
+
+            <div class="resume__right">
+                <!-- experiance -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <!-- <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Bartender</h3>
+                                <span class="experience__company">From 2008  to 2011 | Barmen</span>
+                                <p class="experience__description">Worked as a bartender on national television in Ukraine where he acquired soft skills.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Direction</h3>
+                                <span class="experience__company">From 2011  to 2018 | Barista </span>
+                                <p class="experience__description">Co-owner of the family coffee business.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Family</h3>
+                                <span class="experience__company">Since 2018</span>
+                                <p class="experience__description">Retired and devoted time to his family. </p>
+                            </div>
+                        </div> -->
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Digital manager</h3>
+                                <span class="experience__company">Since 2020 | Frontend developer</span>
+                                <p class="experience__description">Have been working in an international pharmaceutical company.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Pet Projects</h3>
+                                <span class="experience__company">From 2021</span>
+                                <p class="experience__description">Test assignments, educational projects, freelance orders</p>
+                                <p style="font-size: 90%;">I worked extensively with Swift and SwiftUI, developing mobile applications with intuitive user interfaces. I implemented navigation across multiple screens, dynamic forms with interactive controls and animations. I focused on managing component states, including toggling visibility, form autocomplete, and creating flexible transitions for various UI elements</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">iOS Developer in product company</h3>
+                                <span class="experience__company">may 2022 - july 2024</span>
+                                <p class="experience__description">Adding subscriptions, fixing bugs, working with notifications</p>
+                                <p style="font-size: 90%;">In a product company setting to develop robust and scalable mobile applications integrated RESTful APIs for data fetching, managed local storage solutions like CoreData and UserDefaults, and ensured performance optimization across the app. Additionally, I collaborated with backend teams using Firebase for real-time updates and analytics, while ensuring adherence to MVVM architecture and leveraging push notifications for improved user engagement</p>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </section>
+
+                <!-- certificates -->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Acquainted</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Sh++ School Course</h3>
+                                <p class="certificate__description">Course of Computer Science</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">iOS Architect Crash Course</h3>
+                                <p class="certificate__description">Course of Swift</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Swift 5 iOS Application Developer</h3>
+                                <p class="certificate__description">Course of Swift on Coursera</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Intermediate Swift Course</h3>
+                                <p class="certificate__description">Course of Swift on Codecademy</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Angela Yu iOS Bootcamp</h3>
+                                <p class="certificate__description">Course of Swift on Udemy</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Web Developer MIMO</h3>
+                                <p class="certificate__description">Course of HTML5/CSS/JS/SQL/REACT/GIT on MIMO app</p>
+                            </div>
+                        </div>
+                    </section>
+
+                <!-- languages -->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English | B1
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>  Ukraine | Fluently
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- interests -->
+                    <!-- <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-joystick interests__icon' ></i>
+                                <span class="interests__name">Games</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-run interests__icon' ></i>
+                                <span class="interests__name">Yoga</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon' ></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+                        </div>
+                    </section> -->
+
+                <!-- Footer -->
+                <section class="footer section">
+                    <!-- <h3 class="section-title">Links</h3> -->
+
+                    <div class="footer__container">
+                        <ul class="footer__content bd-grid">
+                            <!-- <li class="footer__name">
+                                <a href="https://github.com/VNavrockij" target="_blank" class="nav__link active-link">
+                                    <i class='bx bxl-github footer__icon'></i>
+                                </a>
+                            </li>
+
+                            <li class="footer__name">
+                                <span class="footer__circle"></span> 2021 est.
+                            </li> -->
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- SCROLL TOP -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+</body>
+</html>
