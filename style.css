@@ -262,6 +262,11 @@ img {
     color: var(--text-color);
 }
 
+.home__information:link,
+.home__information:visited {
+    color: var(--text-color);
+}
+
 .home__information:hover {
     color: var(--title-color);
 }
