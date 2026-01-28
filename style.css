@@ -259,6 +259,11 @@ img {
     display: flex;
     align-items: center;
     font-size: var(--small-font-size);
+    color: var(--text-color);
+}
+
+.home__information:hover {
+    color: var(--title-color);
 }
 
 .home__icon {
@@ -459,6 +464,23 @@ img {
 }
 
 /*=== Media Queries ===*/
+/* for MEDIUM-SMALL devices */
+@media screen and (max-width: 576px) {
+    .section-title {
+        letter-spacing: .2rem;
+    }
+
+    .skills__content,
+    .languages__content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__content {
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5rem;
+    }
+}
+
 /* for SMALL devices, menu two colums */
 @media screen and (max-width: 320px) {
     .nav__list {
